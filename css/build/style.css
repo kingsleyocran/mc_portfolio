@@ -1,0 +1,150 @@
+
+/* general */
+body {
+  min-width: 1366;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+/* typography */
+.primary-font-family {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-font {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
+}
+
+.banner-header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.body-text-1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 52px;
+  font-weight: 300;
+  color: #172b4d;
+}
+
+.body-text-2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #172b4d;
+}
+
+.head-text-1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6070ff;
+}
+
+/* colors */
+.primary-color {
+  color: #6070ff !important;
+}
+
+.secondary-color {
+  color: #172b4d;
+}
+
+.background-color {
+  background-color: #e5e5e5;
+}
+
+/* header */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: calc(100% - 30px);
+  display: flex;
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  text-decoration: none;
+}
+
+.menu-icon {
+  color: #6070ff;
+  padding: 10px;
+  flex: 1;
+}
+
+.nav-logo {
+  flex: 3;
+}
+
+/* banner */
+.banner {
+  width: calc(100% - 30px);
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 0 0 0 90px;
+}
+
+.banner-social-icon {
+  color: #172b4d;
+  padding: 4px 10px 0 0;
+  flex: 1;
+}
+
+.banner-social-icon:hover {
+  color: #6070ff;
+  padding: 4px 10px 0 0;
+  flex: 1;
+}
+
+.banner-content {
+  margin-top: 15px;
+}
+
+/* body */
+.content-1 {
+  min-height: 30vh;
+}
+
+/* footer */
+
+/* Media Queries */
