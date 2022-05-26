@@ -97,7 +97,7 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .sub-text-1 {
@@ -118,19 +118,11 @@ p {
 
 .button-text-1 {
   font-weight: 400;
-font-size: 17px;
-line-height: 24px;
-color: #396DF2;
-background-color: white;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
 }
-
-
-
-
-
-
-
-
 
 /* colors */
 .primary-color {
@@ -144,18 +136,6 @@ background-color: white;
 .background-color {
   background-color: #f7f7f9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* header */
 .nav-bar {
@@ -193,18 +173,6 @@ background-color: white;
   flex: 3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* banner */
 .banner {
   display: flex;
@@ -220,9 +188,9 @@ background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border-radius: 0px 70px 0px 0px;
+  border-radius: 0 70px 0 0;
   width: calc(100% - 48px);
-  padding: 0px 24px;
+  padding: 0 24px;
   gap: 20px;
 }
 
@@ -247,8 +215,8 @@ background-color: white;
   justify-content: flex-start;
   align-content: center;
   align-items: center;
-  padding: 0px;
-  height: 0px;
+  padding: 0;
+  height: 0;
   gap: 20px;
 }
 
@@ -294,16 +262,6 @@ background-color: white;
   right: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* body */
 .body-content-1 {
   display: grid;
@@ -320,7 +278,7 @@ background-color: white;
   padding: 16px;
   background-color: white;
   border-style: solid;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -330,14 +288,14 @@ background-color: white;
   justify-content: flex-start;
   align-content: center;
   align-items: center;
-  padding: 0px;
-  height: 0px;
+  padding: 0;
+  height: 0;
   gap: 10px;
 }
 
 .work-card-techstack {
   display: flex;
-  padding: 0px;
+  padding: 0;
   margin: 0;
 }
 
@@ -347,19 +305,19 @@ background-color: white;
   justify-content: flex-start;
   align-content: center;
   align-items: center;
-  padding: 0px;
-  height: 0px;
+  padding: 0;
+  height: 0;
   gap: 10px;
 }
 
 .work-card-techstack li {
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
 
 .work-card-button {
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
   margin: 12px 0;
@@ -367,7 +325,7 @@ background-color: white;
 }
 
 .work-card-button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
 }
 
@@ -375,12 +333,12 @@ background-color: white;
   width: 100%;
 }
 
-.body-content-2{
+.body-content-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  border-radius: 0px 70px 0px 0px;
+  border-radius: 0 70px 0 0;
   width: calc(100% - 48px);
   padding: 114px 24px;
   gap: 20px;
@@ -393,18 +351,13 @@ background-color: white;
   gap: 20px;
 }
 
-
-.about-collapsible ul{
+.about-collapsible ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 0px;
+  padding: 0;
   gap: 10px;
-}
-
-.about-collapsible li {
-
 }
 
 .about-collapsible-button {
@@ -412,7 +365,7 @@ background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 9px 0;
   background-color: white;
   cursor: pointer;
   border: none;
@@ -423,6 +376,7 @@ background-color: white;
   flex-direction: column;
   align-items: stretch;
   gap: 10px;
+  margin-top: 14px;
 }
 
 .about-collapsible-tools {
@@ -432,7 +386,6 @@ background-color: white;
   background-color: #f7f7f9;
   padding: 9px;
   border-radius: 8px;
-  
 }
 
 .divider-1 {
