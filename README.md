@@ -1,21 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# Project Name
+# Portfolio Website Project
 
-> Description the project.
+> Professional Portfolio using HTML and CSS.
 
 
 ## Built With
 
 * HTML & CSS
 * [Gulp.js](https://gulpjs.com/)
-
-
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
@@ -33,6 +27,7 @@ To get a local copy up and running follow these simple example steps.
   ```
 
 ### Setup
+Clone the repository using the GitHub link provided below.
 
 ### Install
 1. Clone the repo
@@ -43,20 +38,14 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm install
    ```
-### Usage
-
-### Run tests
-
-### Deployment
-
 
 
 ## Authors
 
-👤 **Author**
+👤 **Kingsley Ocran**
 
-- GitHub: [@githubhandle](https://github.com/kingsleyocran)
-- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/kingsley-ocran-9909a3186/))
+- GitHub: [@kingsleyocran](https://github.com/kingsleyocran)
+- LinkedIn: [Kingsley Ocran](https://www.linkedin.com/in/kingsley-ocran-9909a3186/)
 
 ## 🤝 Contributing
 

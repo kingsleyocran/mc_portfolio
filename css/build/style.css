@@ -19,6 +19,11 @@ h1 {
   margin: 0;
 }
 
+h5 {
+  padding: 10px 0;
+  margin: 0;
+}
+
 p {
   padding: 0;
   margin: 0;
@@ -326,6 +331,11 @@ p {
 
 .work-card-button:hover {
   background-color: #6070ff;
+  color: white;
+}
+
+.work-card-button:active {
+  background-color: #3842a3;
   color: white;
 }
 
