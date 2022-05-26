@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+
 # Project Name
 
 > Description the project.
@@ -7,9 +8,10 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+* HTML & CSS
+* [Gulp.js](https://gulpjs.com/)
+
+
 
 ## Live Demo (if available)
 
@@ -25,11 +27,22 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
 ### Setup
 
 ### Install
-
+1. Clone the repo
+   ```sh
+   git clone https://github.com/kingsleyocran/mcv_portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 ### Usage
 
 ### Run tests
@@ -40,17 +53,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/kingsleyocran)
+- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/kingsley-ocran-9909a3186/))
 
 ## 🤝 Contributing
 
@@ -62,11 +68,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

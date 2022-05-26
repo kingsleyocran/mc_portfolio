@@ -1,0 +1,208 @@
+/* general */
+body {
+  min-width: 1366;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* typography */
+.primary-font-family {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
+}
+
+.banner-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.body-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 52px;
+  font-weight: 300;
+  color: #344563;
+}
+
+.body-text-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.head-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #7f8cff;
+}
+
+/* colors */
+.primary-color {
+  color: #6070ff !important;
+}
+
+.secondary-color {
+  color: #172b4d;
+}
+
+.background-color {
+  background-color: #e5e5e5;
+}
+
+/* header */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  width: calc(100% - 40px);
+  display: flex;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  text-decoration: none;
+}
+
+.menu-icon {
+  color: #6070ff;
+  padding: 10px;
+  flex: 1;
+}
+
+.nav-logo {
+  flex: 3;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 0 0 0 70px;
+}
+
+.banner-content {
+  margin-top: 20px;
+}
+
+.banner-stack {
+  position: absolute;
+  width: calc(100% - 40px);
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.banner-background {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-social-icon {
+  color: #172b4d;
+  padding: 0 20px 0 0;
+}
+
+.banner-socials {
+  display: flex;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.banner-socials li {
+  list-style-type: none;
+  display: inline;
+}
+
+.vector1 {
+  position: absolute;
+  bottom: 20px;
+  right: 110px;
+}
+
+.vector2 {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
+
+.vector3 {
+  position: absolute;
+  left: 0;
+  top: 70px;
+}
+
+.vector4 {
+  position: absolute;
+  top: 0;
+}
+
+.vector5 {
+  position: absolute;
+  height: 100px;
+  top: 65px;
+  right: 0;
+}
+
+.ellipse1 {
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+}
+
+/* body */
+.content-1 {
+  min-height: 30vh;
+}
+
+/* footer */
+
+/* Media Queries */
