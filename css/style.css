@@ -524,6 +524,10 @@ p {
   right: 50px;
 }
 
+::placeholder {
+  color: #b3bac5;
+}
+
 /* footer */
 
 /* Media Queries */
