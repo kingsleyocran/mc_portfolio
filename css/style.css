@@ -134,12 +134,20 @@ p {
   color: #6070ff !important;
 }
 
+.color-white {
+  color: #ffffff !important;
+}
+
 .secondary-color {
   color: #172b4d;
 }
 
 .background-color {
   background-color: #f7f7f9;
+}
+
+.contact-back-color{
+  background-color: #6070FF;;
 }
 
 /* header */
@@ -415,6 +423,25 @@ p {
 
 .border {
   border: solid;
+}
+
+.contact-background {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  border-radius: 70px 0 0 0 ;
+}
+
+.contact-stack{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  width: calc(100% - 48px);
+  padding: 0 24px;
+  gap: 20px;
+  
 }
 
 /* footer */
