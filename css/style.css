@@ -343,19 +343,19 @@ p {
 }
 
 .work-card-button:hover {
-  background: #6070FF;
-  color: #ffffff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
 }
 
 .work-card-button:active {
-  background: #2230D2;
-  color: #ffffff;
+  background: #2230d2;
+  color: #fff;
 }
 
 .work-card-button:disabled {
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
 }
 
 .portfolio-images {
@@ -510,15 +510,15 @@ p {
 }
 
 .submit-btn:hover {
-  background: #6070FF;
-  color: #ffffff;
-  box-shadow: 0px 8px 16px rgba(25, 43, 202, 0.24);
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(25, 43, 202, 0.24);
   border-radius: 8px;
 }
 
 .submit-btn:active {
-  background: #2230D2;
-  color: #ffffff;
+  background: #2230d2;
+  color: #fff;
 }
 
 .vector11 {

@@ -176,11 +176,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
   width: 100%;
 }
@@ -193,14 +193,14 @@ p {
   color: #6070ff;
   padding: 10px;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .nav-logo {
   -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -ms-flex: 3;
+  flex: 3;
 }
 
 /* banner */
@@ -210,11 +210,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: white;
   min-height: 100vh;
   border-radius: 0 0 0 70px;
@@ -227,11 +227,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   border-radius: 0 70px 0 0;
   width: calc(100% - 48px);
   padding: 0 24px;
@@ -261,13 +261,13 @@ p {
   display: flex;
   list-style-type: none;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
   height: 0;
   gap: 20px;
@@ -329,10 +329,10 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   gap: 12px;
   padding: 16px;
   background-color: white;
@@ -347,13 +347,13 @@ p {
   display: flex;
   list-style-type: none;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
   height: 0;
   gap: 10px;
@@ -373,13 +373,13 @@ p {
   display: flex;
   list-style-type: none;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
   height: 0;
   gap: 10px;
@@ -397,25 +397,25 @@ p {
   padding: 12px;
   margin: 12px 0;
   -webkit-transition-duration: 0.4s;
-       -o-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .work-card-button:hover {
-  background: #6070FF;
-  color: #ffffff;
-  -webkit-box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-          box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  color: #fff;
+  -webkit-box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
 }
 
 .work-card-button:active {
-  background: #2230D2;
-  color: #ffffff;
+  background: #2230d2;
+  color: #fff;
 }
 
 .work-card-button:disabled {
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
 }
 
 .portfolio-images {
@@ -428,11 +428,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: white;
   border-radius: 0 70px 0 0;
   width: calc(100% - 48px);
@@ -446,11 +446,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   gap: 20px;
 }
 
@@ -461,11 +461,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   padding: 0;
   gap: 10px;
 }
@@ -476,11 +476,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 9px 0;
   background-color: white;
   cursor: pointer;
@@ -493,11 +493,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   gap: 10px;
   margin-top: 14px;
 }
@@ -507,8 +507,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 10px;
   background-color: #f7f7f9;
   padding: 9px;
@@ -522,8 +522,8 @@ p {
 
 .icon-rotate {
   -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .about-content-2 {
@@ -556,11 +556,11 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0 24px;
   height: 800px;
   gap: 30px;
@@ -576,8 +576,8 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .contact-input {
@@ -611,8 +611,8 @@ p {
   color: #6070ff;
   border: none;
   -webkit-transition-duration: 0.4s;
-       -o-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .submit-btn:disabled {
@@ -624,16 +624,16 @@ p {
 }
 
 .submit-btn:hover {
-  background: #6070FF;
-  color: #ffffff;
-  -webkit-box-shadow: 0px 8px 16px rgba(25, 43, 202, 0.24);
-          box-shadow: 0px 8px 16px rgba(25, 43, 202, 0.24);
+  background: #6070ff;
+  color: #fff;
+  -webkit-box-shadow: 0 8px 16px rgba(25, 43, 202, 0.24);
+  box-shadow: 0 8px 16px rgba(25, 43, 202, 0.24);
   border-radius: 8px;
 }
 
 .submit-btn:active {
-  background: #2230D2;
-  color: #ffffff;
+  background: #2230d2;
+  color: #fff;
 }
 
 .vector11 {
@@ -656,11 +656,11 @@ p {
   color: #b3bac5;
 }
 
-:-ms-input-placeholder {
+::-ms-input-placeholder {
   color: #b3bac5;
 }
 
-::-ms-input-placeholder {
+:-ms-input-placeholder {
   color: #b3bac5;
 }
 
